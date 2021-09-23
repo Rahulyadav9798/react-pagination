@@ -1,0 +1,41 @@
+.post-body{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-row-gap: 10px ;
+
+}
+.post-body span{
+        width:50px;
+        border-radius: 20px;
+}
+.List-group-item{
+        display:flex;
+        flex-direction:column;
+        max-width: 70%;
+      border:5px outset rgb(221, 219, 219);
+        padding: 10px;
+        min-width: 1%;
+        margin-left: 50px;
+        position: relative;
+      
+}
+.List-group-item img{
+        min-width: none;
+        object-fit:cover;
+        min-width: 10px;
+}
+
+.List-group-item :hover
+{
+  box-shadow: 0 0 20px rgb(226, 8, 8);
+}
+img {
+        transition: transform .2s;
+        
+      }
+      
+      img:hover {
+        -ms-transform: scale(1.5); /* IE 9 */
+        -webkit-transform: scale(1.5); /* Safari 3-8 */
+        transform: scale(1.5); 
+      }

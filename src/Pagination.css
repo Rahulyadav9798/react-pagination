@@ -1,0 +1,23 @@
+
+
+.pagination{
+    position: absolute;
+    display:flex;
+    margin-left: 15px;
+    
+    flex-direction:column;
+    top: 55px;
+}
+.pagination .page-link {
+    color: royalblue;
+    padding: 8px 16px;
+    margin-bottom: 28px;
+    border:1px solid grey;
+    text-decoration: none;
+}
+  
+.page-item .page-link:hover {
+    box-shadow: 0 0 20px rgb(226, 8, 8);
+
+    border-radius: 5px;
+}
